@@ -1,9 +1,11 @@
 import React from 'react';
+import Product from './Components/Product'
+import {products} from './data/products'
 
 function App() {
   return (
     <div className="App">
-        <h1>Hello world</h1>
+        <Product product={products[0]} />
     </div>
   );
 }
