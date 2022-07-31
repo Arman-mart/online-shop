@@ -43,25 +43,3 @@ const Product = ({ product }: productProps) => {
 };
 
 export default Product;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
