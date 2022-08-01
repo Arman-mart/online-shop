@@ -1,10 +1,9 @@
 import React                 from 'react';
 import Product               from './Components/Product'
-import {products}            from './data/products'
-import {IProduct}            from   './types'
-import axios                 from   'axios'
-import                              './App.css'
-import {useState, useEffect} from   'react';
+import {IProduct}            from './types'
+import axios                 from 'axios'
+import                            './App.css'
+import {useState, useEffect} from 'react';
 
 function App() {
    const [products, setProducts] = useState<IProduct[]>([]);
